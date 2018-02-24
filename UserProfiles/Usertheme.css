@@ -17,18 +17,6 @@ html, body {
 
 
 }
-#forimage{
-	background-image: url("");;
- 	background-size: cover;
- 	background-position: center center;
- 	background-repeat: no-repeat;
-  	height: 764px;
- 	margin: 0 auto;
- 	width: 100%;
- 	height:90%;
- 	background-color:white;
-
-}
 a:link{
 	font-family: 'Yantramanav', sans-serif;
 	text-decoration: none;
@@ -109,71 +97,78 @@ h1 {
 	font-style: italic;
 	text-align:center;
 }
-h3 {
-	font-family: 'Yantramanav', sans-serif;
-	font-size:50px;
-	margin:0 auto;
-	text-align:center;
-	color:#31708E;
-	font-weight:300;
+/*CODE USED HEAVILY FROM W3 SCHOOLS 
+I ONLY EDITIED SOME OF THIS
+*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
 }
-h2 {
-	font-family: 'Yantramanav', sans-serif;
-	font-size:35px;
-	margin:0 auto;
-	text-align:center;
-	color:grey;
-	font-weight:300;
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
 }
-.introduction{
-	background-color: white;
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
 }
-/* SUMMARY DIVS UNDER IMAGE */
-#wrapper {
-    overflow: hidden;
-    margin: 0 auto;
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
-#second {
-    width: 49%;
-    height:400px;
-    float:right;
-    font-family: 'Yantramanav', sans-serif;
-    background-color:#f7f7f7;
-    font-size:20px;
-    border-radius: 10px;
-    font-weight:400;
+
+button:hover {
+    opacity:1;
 }
-#space {
-    width: 1%;
-    height:300px;
-    float:right;
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
 }
-#first {
-	width:49%;
-	height:400px;
-	float:right;	
-	font-family: 'Yantramanav', sans-serif;
-	background-color:#f7f7f7;
-	font-size:20px;
-	border-radius: 10px;
-	font-weight:400;
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 25%;
 }
-#indent{	
-	font-family: 'Yantramanav', sans-serif;
-	background-color:#e3e5e8;
+.signupbtn{
+	float:right;
 }
-#imagealign{
-	height:40%;
-	width:20%;
-	display:block;
-    margin:auto;
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
 }
-#endofpage{
-	background-color:#bcbcbc;
-	height:200px;
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-#end {
-	font-family: 'Yantramanav', sans-serif;
-	font-size:20px;
-		
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
 }
