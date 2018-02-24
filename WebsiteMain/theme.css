@@ -1,0 +1,179 @@
+/* Css Reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html, body {
+    height:100%;
+}
+
+/*HEADER CSS*/
+#header{
+	background-color:white;
+
+
+}
+#forimage{
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/23/67/1a/23671a8f18eb758584bca1ca09ed3e7f.png");;
+ 	background-size: cover;
+ 	background-position: center center;
+ 	background-repeat: no-repeat;
+  	height: 764px;
+ 	margin: 0 auto;
+ 	width: 100%;
+ 	height:90%;
+ 	background-color:white;
+
+}
+a:link{
+	font-family: 'Yantramanav', sans-serif;
+	text-decoration: none;
+	color:black;
+}
+h1 {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+}
+#logo{
+	height:45px;
+	width:45px;
+	vertical-align:middle;
+	margin: 5px;
+}
+/* FOR HR TAG USE WHEN NEEDED 
+.line_break{
+	width:100%;
+    height:0px;
+    float: middle;
+    color: #e5e5e5;
+    //padding-top: 1px;
+    background-color: #0;
+    border: none;
+    border-bottom: 1px solid grey;
+    opacity: 0.2;
+}
+*/ 
+
+.navt {
+  list-style: none;
+  float:right;
+  position: relative;
+  vertical-align: middle;
+}
+.navt li {
+  display: inline;
+}
+.navt a {
+  display: inline-block;
+  padding: 0 12px;
+  font-weight: lighter;
+  color: #c1c8e4;
+  line-height: 50px;
+  text-decoration:  none;
+  font-size:20px;
+  font-family: 'Yantramanav', sans-serif;
+    -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+.navt li a:hover {
+  color: #84ceeb;
+
+  -moz-transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+/* MAIN CSS */
+#main-quote {
+	text-align:center;
+	font-size: 45px;
+	font-family: 'Work Sans', sans-serif;
+	color: black;
+} 
+#front-page {
+	height:100%;
+	width:100%	;
+}
+#word {
+	font-size: 45px;
+	font-family: 'Work Sans', sans-serif;
+	color: black;
+	font-style: italic;
+	text-align:center;
+}
+h3 {
+	font-family: 'Yantramanav', sans-serif;
+	font-size:50px;
+	margin:0 auto;
+	text-align:center;
+	color:#31708E;
+	font-weight:300;
+}
+h2 {
+	font-family: 'Yantramanav', sans-serif;
+	font-size:35px;
+	margin:0 auto;
+	text-align:center;
+	color:grey;
+	font-weight:300;
+}
+.introduction{
+	background-color: white;
+}
+/* SUMMARY DIVS UNDER IMAGE */
+#wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+}
+#second {
+    width: 49%;
+    height:400px;
+    float:right;
+    font-family: 'Yantramanav', sans-serif;
+    background-color:#f7f7f7;
+    font-size:20px;
+    border-radius: 10px;
+    font-weight:400;
+}
+#space {
+    width: 1%;
+    height:300px;
+    float:right;
+}
+#first {
+	width:49%;
+	height:400px;
+	float:right;	
+	font-family: 'Yantramanav', sans-serif;
+	background-color:#f7f7f7;
+	font-size:20px;
+	border-radius: 10px;
+	font-weight:400;
+}
+#indent{	
+	font-family: 'Yantramanav', sans-serif;
+	background-color:#e3e5e8;
+}
+#imagealign{
+	height:40%;
+	width:20%;
+	display:block;
+    margin:auto;
+}
+#endofpage{
+	background-color:#bcbcbc;
+	height:200px;
+}
+#end {
+	font-family: 'Yantramanav', sans-serif;
+	font-size:20px;
+		
+}
