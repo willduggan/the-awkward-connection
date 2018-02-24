@@ -170,10 +170,10 @@ h2 {
 }
 #endofpage{
 	background-color:#bcbcbc;
-	height:200px;
+	height:70px;
 }
 #end {
 	font-family: 'Yantramanav', sans-serif;
 	font-size:20px;
-		
+	text-align:center;
 }
