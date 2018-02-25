@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+		
+	<head>
+		<title>Awkward Connection</title>
+		<!--CSS Links-->
+		<link rel="stylesheet" type="text/css" href="profiletheme.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> <!-- General fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,500" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:500,600,900" rel="stylesheet"> <!-- TITLE FONT -->
+		<script src="js/script.js"></script> <!-- WORD CHANGING -->
+		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
+		<meta name="google-signin-client_id" content="531486299116-f12ck1o78ggcu5pr0dfrdcr6gnr3dcrk.apps.googleusercontent.com">
+		
+	</head>
+
+
+	<body>
+		
+		<div id="header">
+
+		<a href="Index.html"><img id="logo" src="https://files.slack.com/files-tmb/T9DK4SHT2-F9E9HLDE0-b8585912c6/tac_1024.png"></a>
+
+	<ul class="navt">
+  		
+  		<li><a href="https://socialanxietyinstitute.org/what-is-social-anxiety" target="_blank">Explore &nbsp;&nbsp;&nbsp;&nbsp;</a>
+  		</li>
+
+  		<li><a href="#section2">About Us &nbsp;&nbsp;&nbsp;&nbsp;</a>
+  		</li>
+  
+  		<li><a href="https://goo.gl/forms/hwN8wzudoPtfyfAk1" target="_blank">Contact &nbsp;&nbsp;&nbsp;&nbsp;</a>
+  		</li>
+  
+  		<li><a href="#">Profile</a>
+  		</li>
+
+	</ul>
+		</div>
+</head>
+
+<body>
+	<img id = "prif" src="https://www.strapui.com/wp-content/uploads/2015/11/ani.strapui.com-profile.html_009.png">	
+
+
+
+
+</body>
