@@ -1,24 +1,26 @@
-<!DOCTYPE html>
+<html>
 		
 	<head>
 		<title>Awkward Connection</title>
 		<!--CSS Links-->
-		<link rel="stylesheet" type="text/css" href="theme.css">
+		<link rel="stylesheet" type="text/css" href="Usertheme.css">
 		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> <!-- General fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,500" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans:500,600,900" rel="stylesheet"> <!-- TITLE FONT -->
 		<script src="js/script.js"></script> <!-- WORD CHANGING -->
 		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">	
 	</head>
+	
+
 
 
 	<body>
-		
+
 		<div id="header">
 
-		<a href="Index.html"><img id="logo" src="https://files.slack.com/files-pri/T9DK4SHT2-F9DN98R6C/unit_2_.jpg"></a>
+		<a href="../WebsiteMain/Index.html"><img id="logo" src="https://files.slack.com/files-pri/T9DK4SHT2-F9DN98R6C/unit_2_.jpg"></a>
 
 	<ul class="navt">
   		
@@ -31,53 +33,34 @@
   		<li><a href="https://goo.gl/forms/hwN8wzudoPtfyfAk1" target="_blank">Contact &nbsp;&nbsp;&nbsp;&nbsp;</a>
   		</li>
   
-  		<li><a href="../UserProfiles/LogIn.html">Log In</a>
+  		<li><a href="#" onClick="alert('Already on login page')">Log In &nbsp;&nbsp;&nbsp;&nbsp;</a>
   		</li>
+
 	</ul>
-	<div class='line-cross'></div>
 		</div>
 		<!-- Front Page Image -->
-<div id="forimage">
-	<br/><br/><br/><br/><br/><br/><br/>
-	<section 	class="animation-box">
- 		
- 		<div class="first-text">
-		<h3 class='animated bounceInDown'>Meet other people just like you online!</h3>
-		</div>
 
-		<div class="second-text">
-		<h2 class='animated bounceInDown'>Sign up for free today!</h2>
-		</div>
-	</section>
-
-
-</div>
-<br/><br/>
-<div id="wrapper">
-
-    <div id="second">
-    	<img id="imagealign" src="https://d30y9cdsu7xlg0.cloudfront.net/png/203191-200.png">
-	<h1 id="section2">How to get started</h1>
-	<br/>
-    	<p>Click the sign up button or <a href='../UserProfiles/LogIn.html'>here</a> to register and join the conversation</p>
-
-
+<form style="border:1px solid #ccc">
+  <div class="container animated fadeIn">
+    <h1 class="break_line">Log In</h1>
+    <div class="form">
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" style='margin-bottom:50px' required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" style='margin-bottom:50px' required>
+    
+        <label class="check_box">
+          <input type="checkbox" checked="checked" name="sendEmail" style="margin-bottom:50px;"><span class="checkmark"></span> <p class='message_updates'>Send Email Updates?</p>
+        </label>
     </div>
+    <div class="clearfix">
 
-    <div id="space"></div>
+	      	<a href="../WebsiteMain/Index.html"><button type="button" class="cancelbtn" style='margin-top:70px;margin-bottom:20px;border-radius:30px;margin-left:30px'>Cancel</button></a>
 
-    <!--This is the first Text box -->
-    <div id="first">
-    	<img id="imagealign" src="http://www.stickpng.com/assets/images/5a4613e5d099a2ad03f9c995.png">
-    	<h1>Why use this?</h1>
-    	<br/>
-    	<p>This website helps people who are awkward connect with people who are willing to be awkward. This is in an effort to allow those who are awkward to gain experience in whatever they are awkward at in a safe environment. In the end, the goal is for awkward users to become less awkward through experience, exposure, and constructive criticism which they will get through the safe environments that they will have with those willing to be awkward</p>
 
-</div>
+      <a href="../profile.html"><button type="button" class="signupbtn" style='margin-top:70px;margin-bottom:20px;border-radius:30px;margin-right:30px'>Log In</button></a>
+    </div>
+  </div>
+</form>
 
-</div>
-<br/><br/>
-<div id="endofpage">
-	<br/>
-	<p id="end">Have a question? Email us at unknown.perspective@gmail.com</p>
-</div>
