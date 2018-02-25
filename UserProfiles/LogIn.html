@@ -10,6 +10,8 @@
 		<script src="js/script.js"></script> <!-- WORD CHANGING -->
 		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">	
+	</head>
 	
 
 
@@ -18,7 +20,7 @@
 
 		<div id="header">
 
-		<a href="Index.html"><img id="logo" src="https://files.slack.com/files-tmb/T9DK4SHT2-F9E9HLDE0-b8585912c6/tac_1024.png"></a>
+		<a href="Index.html"><img id="logo" src="https://files.slack.com/files-pri/T9DK4SHT2-F9DN98R6C/unit_2_.jpg"></a>
 
 	<ul class="navt">
   		
@@ -36,33 +38,28 @@
 
 	</ul>
 		</div>
-</head>
 		<!-- Front Page Image -->
-<div id="forimage">
-	<br/><br/>
 
 <form style="border:1px solid #ccc">
-  <div class="container">
-    <h1>Log In</h1>
-    <p>Enter your log in credentials.</p>
-    <hr>
-
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <label>
-      <input type="checkbox" checked="checked" name="sendEmail" style="margin-bottom:15px"> Send Email Updates?
-    </label>
-
+  <div class="container animated fadeIn">
+    <h1 class="break_line">Log In</h1>
+    <div class="form">
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" style='margin-bottom:50px' required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" style='margin-bottom:50px' required>
+    
+        <label class="check_box">
+          <input type="checkbox" checked="checked" name="sendEmail" style="margin-bottom:50px;"><span class="checkmark"></span> <p class='message_updates'>Send Email Updates?</p>
+        </label>
+    </div>
     <div class="clearfix">
 
-	      	<a href="Index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+	      	<a href="../WebsiteMain/Index.html"><button type="button" class="cancelbtn" style='margin-top:70px;margin-bottom:20px;border-radius:30px;margin-left:30px'>Cancel</button></a>
 
 
-      <a href="profile.html"><button type="button" class="signupbtn">Log In</button></a>
+      <a href="profile.html"><button type="button" class="signupbtn" style='margin-top:70px;margin-bottom:20px;border-radius:30px;margin-right:30px'>Log In</button></a>
     </div>
   </div>
 </form>
