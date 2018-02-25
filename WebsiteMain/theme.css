@@ -18,7 +18,7 @@ html, body {
 
 }
 #forimage{
-	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/23/67/1a/23671a8f18eb758584bca1ca09ed3e7f.png");;
+	background-image: url("https://files.slack.com/files-pri/T9DK4SHT2-F9DNEBWAU/greenbg.jpg");;
  	background-size: cover;
  	background-position: center center;
  	background-repeat: no-repeat;
@@ -40,12 +40,12 @@ h1 {
 	font-family: 'Nunito', sans-serif;
 }
 #logo{
-	height:45px;
-	width:45px;
+	height:55px;
+	width:250px;
 	vertical-align:middle;
 	margin: 5px;
 }
-/* FOR HR TAG USE WHEN NEEDED 
+/* FOR HR TAG USE WHEN NEEDED
 .line_break{
 	width:100%;
     height:0px;
@@ -57,13 +57,14 @@ h1 {
     border-bottom: 1px solid grey;
     opacity: 0.2;
 }
-*/ 
+*/
 
 .navt {
   list-style: none;
   float:right;
   position: relative;
   vertical-align: middle;
+
 }
 .navt li {
   display: inline;
@@ -72,7 +73,7 @@ h1 {
   display: inline-block;
   padding: 0 12px;
   font-weight: lighter;
-  color: #c1c8e4;
+  color: black;
   line-height: 50px;
   text-decoration:  none;
   font-size:20px;
@@ -97,7 +98,7 @@ h1 {
 	font-size: 45px;
 	font-family: 'Work Sans', sans-serif;
 	color: black;
-} 
+}
 #front-page {
 	height:100%;
 	width:100%	;
@@ -151,14 +152,14 @@ h2 {
 #first {
 	width:49%;
 	height:400px;
-	float:right;	
+	float:right;
 	font-family: 'Yantramanav', sans-serif;
 	background-color:#f7f7f7;
 	font-size:20px;
 	border-radius: 10px;
 	font-weight:400;
 }
-#indent{	
+#indent{
 	font-family: 'Yantramanav', sans-serif;
 	background-color:#e3e5e8;
 }
