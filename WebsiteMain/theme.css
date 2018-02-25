@@ -9,20 +9,19 @@
 
 html, body {
     height:100%;
+    background-color:#7dec51;
 }
 
 /*HEADER CSS*/
 #header{
 	background-color:white;
-
-
 }
 #forimage{
-	background-image: url("https://files.slack.com/files-pri/T9DK4SHT2-F9DNEBWAU/greenbg.jpg");;
+	background-image: url('GreenBg.jpg');
  	background-size: cover;
  	background-position: center center;
  	background-repeat: no-repeat;
-  	height: 764px;
+  	/*height: 764px;*/
  	margin: 0 auto;
  	width: 100%;
  	height:90%;
@@ -40,12 +39,17 @@ h1 {
 	font-family: 'Nunito', sans-serif;
 }
 #logo{
-	height:55px;
-	width:250px;
+	height:100%;
+	width:200px;
 	vertical-align:middle;
 	margin: 5px;
+	margin-left:10px;
+	margin-bottom:3px;
 }
-/* FOR HR TAG USE WHEN NEEDED
+.line-cross {
+    border:2px solid grey;
+}
+/* FOR HR TAG USE WHEN NEEDED 
 .line_break{
 	width:100%;
     height:0px;
@@ -57,14 +61,15 @@ h1 {
     border-bottom: 1px solid grey;
     opacity: 0.2;
 }
-*/
+*/ 
 
 .navt {
   list-style: none;
   float:right;
   position: relative;
   vertical-align: middle;
-
+  margin-top:10px;
+  margin-right:25px;
 }
 .navt li {
   display: inline;
@@ -73,7 +78,8 @@ h1 {
   display: inline-block;
   padding: 0 12px;
   font-weight: lighter;
-  color: black;
+  /*color: #c1c8e4;*/
+  color:#6f6c6c;
   line-height: 50px;
   text-decoration:  none;
   font-size:20px;
@@ -98,7 +104,7 @@ h1 {
 	font-size: 45px;
 	font-family: 'Work Sans', sans-serif;
 	color: black;
-}
+} 
 #front-page {
 	height:100%;
 	width:100%	;
@@ -152,14 +158,23 @@ h2 {
 #first {
 	width:49%;
 	height:400px;
-	float:right;
+	float:right;	
 	font-family: 'Yantramanav', sans-serif;
 	background-color:#f7f7f7;
 	font-size:20px;
 	border-radius: 10px;
 	font-weight:400;
+	/*margin: 10;*/
 }
-#indent{
+#first p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#second p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#indent{	
 	font-family: 'Yantramanav', sans-serif;
 	background-color:#e3e5e8;
 }
